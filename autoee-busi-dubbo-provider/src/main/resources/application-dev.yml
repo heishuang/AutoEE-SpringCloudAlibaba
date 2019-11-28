@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: autoee-busi-dubbo-provider
+  main:
+    # Spring Boot 2.1 需要设定
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      
+server:
+  port: 8086
+          
+dubbo:
+  scan:
+    # dubbo 服务扫描基准包
+    base-packages: com.autoee.boot
+  protocol:
+    # dubbo 协议
+    name: dubbo
+    # dubbo 协议端口（ -1 表示自增端口，从 20880 开始）
+    port: -1
+  registry:
+    # 挂载到 Spring Cloud 注册中心
+    address: spring-cloud://localhost
+              

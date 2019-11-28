@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: autoee-busi-dubbo-provider
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: Fuxs
+Implementation-Vendor-Id: com.autoee
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/sca-base/autoee-busi-dubbo-provider
+Created-By: Maven Integration for Eclipse
+
